@@ -1,0 +1,14 @@
+.section__logo__imagem{
+    background: red;
+    background: url('../../image/svg/img-logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 16px;
+    height: 16px;
+
+
+
+    margin-right: 7px;
+}

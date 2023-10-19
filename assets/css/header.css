@@ -1,0 +1,34 @@
+header{
+    /*Colors*/
+    background-color: none;
+    color: var(--text-color);
+
+
+    /*Layout Mode*/
+        /*Flex-box*/
+            /*Flex Container*/
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content:space-around;
+            align-items: center;
+            align-content: center;
+
+            /*Flex Items*/
+
+
+    /*Dimension*/
+    height: 100px;
+    width: auto;
+
+
+    /*Box Model*/
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border: 0px solid red;
+
+    /*Text formatting*/
+    font-size: 1.0rem;
+    font-family: var(--raleway);
+
+}
