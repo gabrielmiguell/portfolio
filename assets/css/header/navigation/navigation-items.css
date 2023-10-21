@@ -1,0 +1,23 @@
+.navigation__items{
+    /*Colors*/
+    background: none;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    /*box model*/   
+    padding: 0px;
+    border: 0px solid red;
+    margin-right: 20px;
+
+    /*Text Decoration*/
+
+
+}
+
+.navigation__items:last-child{
+    margin-right: 0px;
+
+}

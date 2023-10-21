@@ -1,0 +1,14 @@
+.developer{
+    background: none;
+  
+
+    display: block;
+
+    position:relative;
+    width: 50%;
+
+
+    
+}
+
+.developer:hover .developer__text{bottom: 0%; height: 100%;}

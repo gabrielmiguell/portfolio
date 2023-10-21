@@ -1,0 +1,18 @@
+@import url("../../base.css");
+
+.gi{
+    white-space: nowrap;
+    color: White;
+    font-size: 2rem;
+
+    position:absolute;
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    
+}

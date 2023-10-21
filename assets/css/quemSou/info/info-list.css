@@ -1,0 +1,10 @@
+.info__list{
+
+    display: flex;
+    flex-direction: row;
+    font-family: inherit;
+
+    margin-top: 24px;
+
+
+}

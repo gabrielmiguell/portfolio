@@ -1,0 +1,14 @@
+.navigation{
+    /*Colors*/
+    background: none;
+
+    /*Layout Mode*/
+         /*Flex-box*/
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items: center;
+
+
+}
