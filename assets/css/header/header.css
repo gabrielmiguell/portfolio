@@ -1,7 +1,7 @@
 header{
     /*Colors*/
     background-color: none;
-    color: var(--raleway);
+    color: var(--text-color);
 
 
     /*Layout Mode*/
@@ -29,6 +29,6 @@ header{
 
     /*Text formatting*/
     font-size: 1.0rem;
-    font-family: var(--raleway);
+    font-family: var(--font-raleway);
 
 }

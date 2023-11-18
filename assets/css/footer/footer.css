@@ -1,0 +1,86 @@
+@import url("../base.css");
+
+.footer{
+    background: var(--footer-background-color);
+    color: var(--secondary-footer-text-color);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+
+    height: 285px;
+
+    font-family: var(--font-raleway)
+
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: space-around;
+
+    margin: 36px 152px 0px 152px;
+
+
+}
+
+
+.footer__info__title{
+    font-size: 17px;
+    font-weight: bold;
+
+    margin-bottom: 7px;
+
+
+}
+
+.footer__nav__hiperlink{
+    color: var(--secondary-footer-text-color);
+
+    line-height: 19px;
+    text-decoration: none;
+
+}
+
+
+.footer__contact{
+    margin-left: 59px;
+
+}
+
+.footer__contact__info{
+line-height: 19px;
+
+}
+
+.footer__contact__hiperlink{
+    color: var(--secondary-footer-text-color);
+    text-decoration: none;
+
+
+
+}
+
+.section__copyright{
+    border-top: 2px solid var(--secondary-footer-text-color);
+    margin-left: 152px;
+    margin-right: 152px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+    text-align: center;
+    font: 1.0rem;
+
+}
+
+.copyright__author{
+    font-weight: bold;
+
+}
+
+

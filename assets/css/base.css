@@ -5,14 +5,21 @@
 
 :root{
     /* === Colors === */
-    --background-color: #F5F5F5;
-    --text-color: #464646;
+    --primary-background-color: #F5F5F5;
+    --secondary-background-color: #003459;
+    --footer-background-color: #00171F;
 
+    --primary-botton-color: #00A8E8;
 
+    --primary-text-color: #464646;
+    --secondary-text-color: #FFFFFF;
+
+    --primary-footer-text-color: #FFFFFF;
+    --secondary-footer-text-color: #b9b9b9;
 
 
     /* === Fonts === */
-    --raleway: 'Raleway', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
 
 
     /* ==== Transition ==== */

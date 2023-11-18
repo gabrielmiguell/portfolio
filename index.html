@@ -36,6 +36,17 @@
         <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/quemSou/info/info-hiperlink.css">
         <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/quemSou/info/info-icon.css">
 
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/section-sobremim/section-sobremim.css">
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css//section-sobremim/sobremim-description/sobremim-title.css">
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/section-sobremim/sobremim-description/sobremim-description.css">
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/">
+
+
+        <link rel="stylesheet" type="text/css" crossorigin="anonymous" href="./assets/css/footer/footer.css">
+
+   
+
+
     </head>
     <body>
         <header class="header">   
@@ -76,10 +87,10 @@
             </article>
 
             <article id="section-sobremim" class="section-sobremim">
-                <h2>Sobre mim</h2>
+                <h2 class="sobremim__title">Sobre mim</h2>
                 <section>
-                    <p></p>
-                    <p></p>
+                    <p class="sobremim__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur dolorem temporibus cum provident sequi! Praesentium repellat id accusamus, eaque doloremque dolorem vel? Nemo dolore maxime mollitia in autem eos.</p>
+                    <p class="sobremim__description last-child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum a voluptates error neque magnam ad eaque eius porro accusantium ullam asperiores distinctio repellat odit, dolore, nam ea dolorum excepturi unde.</p>
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
@@ -89,47 +100,47 @@
             </article>
 
             <article id="section-skills" class="section-skills">
-                <h2>Skills</h2>
-                <section>
+                <h2 class="skill-title">Skills</h2>
+                <section class="skill__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>html5</p>
                 </section>
 
                 <section>
-                    <figure>
+                    <figure class="skill__items">
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>css3</p>
                 </section>
 
-                <section>
+                <section class="skill__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>javaScript</p>
                 </section>
 
-                <section>
+                <section class="skill__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>angular</p>
                 </section>
 
-                <section>
+                <section class="skill__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>react</p>
                 </section>
 
-                <section>
+                <section class="skill__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>HTML 5</p>
+                    <p>node.JS</p>
                 </section>              
                 
             </article>
@@ -137,45 +148,45 @@
             <article id="section-hobbies" class="section-hobbies">
                 <h2>Hobbies</h2>
                 <section>
-                    <figure>
+                    <figure class="hobbies__items">
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p>musculação</p>
                 </section>
 
                 <section>
-                    <figure>
+                    <figure class="hobbies__items">
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p>correr</p>
                 </section>
 
-                <section>
+                <section class="hobbies__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p>tocar violão</p>
                 </section>
 
-                <section>
+                <section class="hobbies__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p>ler livros</p>
                 </section>
 
-                <section>
+                <section class="hobbies__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p></p>
                 </section>
 
-                <section>
+                <section class="hobbies__items">
                     <figure>
                         <img class="" alt="" src="">
                     </figure>
-                    <p>Correr</p>
+                    <p></p>
                 </section>              
                 
             </article>
@@ -260,28 +271,32 @@
 
         </main>
 
-        <footer> 
-            <section class="menu-section">
-                <h6>Menu</h6>
-                <nav>
-                    <ul>
-                        <li><a href=""></a>Sobre Mim</a></li>
-                        <li><a href=""></a>Hobbies</a></li>
-                        <li><a href=""></a>Skills</a></li>
-                        <li><a href=""></a>Hobbies</a></li>
-                        <li><a href=""></a>Formação</a></li>
-                        <li><a href=""></a>Projetos</a></li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="contact-section">
-                <h6>Contatos</h6>
-                <p>E-mail: gabrieln.miguel@hotmail.com</p>
-                <a href="https://www.linkedin.com/in/gabriel-miguel/">LinkedIn</a>
+        <footer class="footer"> 
+            <section class="footer__info">
+                <section class="info__menu">
+                    <h6 class="footer__info__title">Menu</h6>
+                    <nav class="footer__nav">
+                        <ul class="footer__list">
+                            <li class="footer__nav__item"><a class="footer__nav__hiperlink" href="#">Sobre Mim</a></li>
+                            <li class="footer__nav__item"><a class="footer__nav__hiperlink" href="#section-skills">Skills</a></li>
+                            <li class="footer__nav__item"><a class="footer__nav__hiperlink" href="#section-hobbies">Hobbies</a></li>
+                            <li class="footer__nav__item"><a class="footer__nav__hiperlink" href="#section-formacao">Formação</a></li>
+                            <li class="footer__nav__item"><a class="footer__nav__hiperlink" href="#section-projeto">Projetos</a></li>
+                        </ul>
+                    </nav>
+                </section>
 
+                <section class="footer__contact">
+                    <h6 class="footer__info__title">Contatos</h6>
+                    <address class="footer__contact__info">
+                        <p><a class="footer__contact__hiperlink" href="mailto: gabrieln.miguel@hotmail.com">E-mail: gabrieln.miguel@hotmail.com</a></p>
+                        <p><a class="footer__contact__hiperlink" target="_blank" href="https://www.linkedin.com/in/gabriel-miguel/">LinkedIn</a></p>
+
+                    </address>
+                </section>
             </section>
-            <section class="copyright-section">
-                <p>&#169; Desenvolvido por Gabriel Miguel - Todos os direitos reservados</p>
+            <section class="section__copyright">
+                <p>&#169; Desenvolvido por <span class="copyright__author">Gabriel Miguel</span> - Todos os direitos reservados</p>
             </section>
         </footer>
         

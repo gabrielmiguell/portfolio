@@ -1,0 +1,22 @@
+@import url("../base.css");
+
+.section-sobremim{
+    background: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    font-size: 1.0rem;
+    font-family: var(--font-raleway);
+
+
+    height: 383px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 152px;
+    padding-right: 540px;
+
+}
