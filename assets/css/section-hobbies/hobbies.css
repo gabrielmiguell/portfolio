@@ -1,0 +1,81 @@
+@import url("../base.css");
+
+.section__hobbie{
+    background: none;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-around;
+
+    font-family: var(--font-raleway);
+
+    padding-left: 152px;
+    padding-right: 152px;
+
+}
+
+.hobbie__title{
+
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 32px;
+
+}
+
+.hobbie__group{
+    background: none;
+    opacity: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.hobbie__item{
+    
+    background: #FFFFFF;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+
+    height: 243px;
+    width: 245px;
+
+    border-radius: 9%;
+
+
+}
+
+
+.hobbie__item__title{
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    margin-bottom: 16px;
+    margin-left: 16px;
+
+}
+
+.uppercase{ 
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+
+}
+
+
