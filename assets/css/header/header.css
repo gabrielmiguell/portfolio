@@ -32,3 +32,152 @@ header{
     font-family: var(--font-raleway);
 
 }
+
+
+
+/*Logo Beginning*/
+.logo{
+    /*Colors*/
+    background: none;
+
+
+
+    /*Layout Mode*/
+        /*Flexbox*/
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: baseline;
+
+
+    /*Dimension*/    
+
+    /*Box Model*/
+
+
+
+}
+
+.logo__title{
+    /*Colors*/
+    background: none;
+
+
+    /*Text Formatting*/
+    font-weight: 700;
+
+    /*Layout Mode*/
+         /*Flex-box*/
+
+}
+
+.logo__imagem{
+
+    background: url('../../image/svg/img-logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1.0rem;
+    height: 1.0rem;
+
+
+
+    margin-right: 7px;
+}
+/*Logo Ends*/
+
+
+/*Navigation Bar - Beginning*/
+
+.navigation{
+    /*Colors*/
+    background: none;
+
+    /*Layout Mode*/
+         /*Flex-box*/
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         justify-content: center;
+         align-items: center;
+
+
+}
+
+.navigation__list{
+    list-style-type: none;
+
+    /*Layout Mode*/
+        /*Flex-box*/
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+
+    /*Box Model*/
+    padding: 0px 0px;
+    border: 0px solid red;
+    margin: 0px 0px;
+
+    
+
+
+}
+.navigation__items{
+    /*Colors*/
+    background: none;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    /*box model*/   
+    padding: 0px;
+    border: 0px solid red;
+    margin-right: 20px;
+
+    /*Text Decoration*/
+
+
+}
+
+.navigation__items:last-child{
+    margin-right: 0px;
+
+}
+
+.navigation__hiperlinks {
+    /*Colors*/
+    background: none;
+    color: var(--text-color);
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    /*Box Model*/
+    padding: 0px 0px;
+    border: 0px solid black;
+    margin: 0px 0px;
+
+    /*Text formatting*/
+    text-decoration: none;
+
+
+}
+
+.navigation__hiperlinks.email{
+    
+    /*Text Formatting*/
+    font-weight: 700;
+
+}
+
+/*Navigation Bar - Ends*/
+
+
+

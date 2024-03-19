@@ -1,0 +1,180 @@
+/*Who am I? Section - Beginning*/
+
+/*Structure Section*/
+@import url(../base.css);
+
+.quem-sou{
+    background: rgba(0, 0, 0, 0.0);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    height: auto;
+
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    margin-top: 2.0rem;
+    margin-bottom: 5.8125rem;
+
+    font-family: var(--font-raleway);
+
+}
+
+/*Structure Section*/
+.info{
+    color: var(--primary-text-color);
+
+
+}
+.info__title{
+
+    margin-top: 3,8125rem;
+
+
+    font-size: 3.25rem;
+
+}
+
+.info__list{
+
+    display: flex;
+    flex-direction: row;
+    font-family: inherit;
+
+    margin-top: 24px;
+
+
+}
+
+.info__items{
+
+    display: flex;
+    flex-direction: row;
+
+    font-family: inherit;
+
+    margin-left: 0px;
+
+}
+
+.info__items:last-child{
+
+    margin-right: 0px;
+}
+
+.info__icon{
+    background: url("../../image/svg/diagonal-arrow.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1.0rem;
+    height: 1.0rem;
+
+    margin-left: 10px;
+
+}
+
+.info__hiperlink{
+    background: none;
+    color: inherit;
+
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    border: none;
+
+
+    text-decoration: none;
+    font-family: inherit;
+    text-transform: capitalize;
+
+    margin-right: 35px;
+
+
+
+}
+
+.info__description{
+
+    margin-top: 24px;
+
+}
+
+/*Developer Section*/
+@import url("../../base.css");
+
+.gi{
+    white-space: nowrap;
+    color: White;
+    font-size: 2rem;
+
+    position:absolute;
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    
+}
+
+.developer{
+    background: none;
+  
+
+    display: block;
+
+    position:relative;
+    width: 50%;
+
+
+    
+}
+
+.developer:hover .developer__text{bottom: 0%; height: 100%;}
+
+.developer__text{
+    background: none;
+    position: absolute;
+
+    bottom: 100%;
+
+    left: 0;
+    right: 0;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 1.5s linear;
+
+
+}
+
+.developer__image{
+    width: 100%;
+    max-width: 1192px;
+    height: auto;
+
+    border-radius: 50%;
+
+    opacity: 1.0;
+
+    /*Test*/
+    filter:blur(0px);
+    filter:brightness(100%);
+    filter:invert(0%);
+
+    
+
+
+}
+
+
+/*Who am I? Section - Ends*/

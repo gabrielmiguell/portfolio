@@ -8,11 +8,13 @@
     --primary-background-color: #F5F5F5;
     --secondary-background-color: #003459;
     --footer-background-color: #00171F;
+    --items-background-color: #ffffff;
 
     --primary-botton-color: #00A8E8;
 
-    --primary-text-color: #464646;
-    --secondary-text-color: #FFFFFF;
+    --primary-text-color: #464646; 
+    --secondary-text-color: #fff;
+    --third-text-color: #003459;
 
     --primary-footer-text-color: #FFFFFF;
     --secondary-footer-text-color: #b9b9b9;
