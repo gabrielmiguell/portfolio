@@ -2,7 +2,7 @@
 
 .section__skill{
     background: none;
-    height: 350px;
+    font-family: var(--font-raleway);
 
     display: flex;
     flex-direction: column;
@@ -10,11 +10,7 @@
     justify-content: flex-start;
     align-items: center;
 
-
-
-    font-family: var(--font-raleway);
-
-
+    height: 350px;
 
 }
 
@@ -49,6 +45,8 @@
 .skill__item{
     background: var(--items-background-color);
     color: var(--third-text-color);
+    font-weight: bold;
+
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -62,10 +60,6 @@
     margin: 0px 0.3em 0px 0.3em;   
 
     border-radius: 9%;
-
-    font-weight: bold;
-
-
 
 }
 

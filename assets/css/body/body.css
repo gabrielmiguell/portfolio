@@ -2,66 +2,104 @@
 
 /*Structure Section*/
 @import url(../base.css);
-
+/*Quem sou section --> Begins*/
 .quem-sou{
     background: rgba(0, 0, 0, 0.0);
+    font-family: var(--font-raleway);
 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 
     height: auto;
 
-    margin-left: 9.5rem;
-    margin-right: 9.5rem;
-    margin-top: 2.0rem;
-    margin-bottom: 5.8125rem;
 
-    font-family: var(--font-raleway);
 
 }
 
-/*Structure Section*/
+.quem-sou__block{
+    display: flex;
+    flex-flow: wrap nowrap;
+    flex-direction: center;
+    align-items: center;
+
+    width: 75vw;
+
+    margin-bottom: 50px;
+}
+/*Quem Sou?  section --> Ends*/
+
+/*
+*
+*
+*
+*/
+
+/*Quem Sou? Info Section --> Begins*/
 .info{
+    background: none;
     color: var(--primary-text-color);
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex;
+
+
+    width: 60%;
 
 }
 .info__title{
 
-    margin-top: 3,8125rem;
-
-
+    color: inherit;
     font-size: 3.25rem;
+    font-weight: bold;
+
+    margin-top:0;
+
+}
+
+.info__description{
+    font-size: 1.357em;
+
+    margin-top: 24px;
 
 }
 
 .info__list{
-
+    background: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+
+
     font-family: inherit;
 
     margin-top: 24px;
 
+    width: 70%;
 
 }
 
 .info__items{
+    background: none;
+    font-family: inherit;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 
-    font-family: inherit;
+    width: 100%;
 
-    margin-left: 0px;
 
 }
 
-.info__items:last-child{
 
-    margin-right: 0px;
-}
 
 .info__icon{
     background: url("../../image/svg/diagonal-arrow.svg");
@@ -83,60 +121,40 @@
 
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: nowrap;
 
     border: none;
-
 
     text-decoration: none;
     font-family: inherit;
     text-transform: capitalize;
+    font-size: 1em;
+    font-weight:500;
 
-    margin-right: 35px;
 
-
-
-}
-
-.info__description{
-
-    margin-top: 24px;
 
 }
 
-/*Developer Section*/
-@import url("../../base.css");
+/*Quem Sou? Info Section --> Ends*/
 
-.gi{
-    white-space: nowrap;
-    color: White;
-    font-size: 2rem;
+/*
+*
+*
+*
+*/
 
-    position:absolute;
-    overflow: hidden;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-
-    
-}
-
+/*Quem Sou? Developer Section --> Begins*/
 .developer{
     background: none;
   
-
     display: block;
-
     position:relative;
-    width: 50%;
 
-
+    width: 40%;
     
 }
 
-.developer:hover .developer__text{bottom: 0%; height: 100%;}
+/*.developer:hover .developer__text{bottom: 0%; height: 100%;}*/
 
 .developer__text{
     background: none;
@@ -158,7 +176,7 @@
 }
 
 .developer__image{
-    width: 100%;
+    width: 90%;
     max-width: 1192px;
     height: auto;
 
@@ -171,10 +189,22 @@
     filter:brightness(100%);
     filter:invert(0%);
 
-    
-
-
 }
 
+.gi{
+    white-space: nowrap;
+    color: White;
+    font-size: 2rem;
 
-/*Who am I? Section - Ends*/
+    position:absolute;
+    overflow: hidden;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    
+}
+/*Quem Sou? Developer Section --> Ends*/

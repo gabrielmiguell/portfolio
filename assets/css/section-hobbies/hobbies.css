@@ -2,29 +2,27 @@
 
 .section__hobbie{
     background: none;
-    height: 350px;
+    font-family: var(--font-raleway);
 
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: space-around;
+    justify-content: flex-start;
+    align-items: center;
 
-    font-family: var(--font-raleway);
-
-    padding-left: 152px;
-    padding-right: 152px;
+    height: 350px;
 
 }
 
 .hobbie__title{
-
+    color: var(--primary-text-color);
     font-size: 32px;
     font-weight: bold;
     text-align: center;
 
-    margin-top: 0px;
+    margin-top: 32px;
     margin-bottom: 32px;
+
 
 }
 
@@ -38,34 +36,43 @@
     justify-content: space-between;
     align-items: center;
 
+    margin-bottom: 88px;
 
-
+    height: 174px;
+    width: 75vw;
 }
 
 .hobbie__item{
-    
-    background: #FFFFFF;
-    
+    background: var(--items-background-color);
+    color: var(--third-text-color);
+    font-weight: bold;
+
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-basis: 70%;
 
+    height: 100%; /*244px;*/    
+    max-width: 100%;
 
-    height: 243px;
-    width: 245px;
+    margin: 0px 0.3em 0px 0.3em;   
 
     border-radius: 9%;
 
-    /*flex-shrink: 2;*/
+}
 
+.hobbie__item:first-child{
+    margin: 0px 0.3em 0px 0em;
 
 }
 
+.hobbie__item:last-child{
+    margin: 0px 0em 0px 0.3em;
 
+}
 .hobbie__item__title{
-    font-weight: bold;
-    font-size: 1.3rem;
-
     margin-bottom: 16px;
     margin-left: 16px;
 
